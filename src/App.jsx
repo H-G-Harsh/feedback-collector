@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Admin from './pages/Admin';
 import Footer from './components/Footer';
-import './App.css'; // external CSS file
+import './App.css'; 
 
 export default function App() {
   return (
