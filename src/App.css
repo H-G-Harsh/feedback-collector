@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .app-container {
+    @apply min-h-screen flex flex-col;
+  }
+
+  .app-header {
+    @apply bg-blue-600 text-white p-4;
+  }
+
+  .header-content {
+    @apply container mx-auto flex justify-between items-center;
+  }
+
+  .site-title {
+    @apply text-xl font-bold;
+  }
+
+  .nav-links {
+    @apply flex space-x-4 ;
+  }
+
+  .nav-link {
+    @apply hover:underline text-white;
+  }
+
+  .main-content {
+    @apply flex-grow container mx-auto p-6;
+  }
+}

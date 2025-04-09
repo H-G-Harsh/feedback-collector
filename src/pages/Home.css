@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .home-container {
+    @apply max-w-4xl mx-auto px-8 py-16;
+  }
+
+  .feedback-heading {
+    @apply text-4xl font-bold text-gray-800 mb-10;
+  }
+
+  .feedback-form {
+    @apply space-y-6 max-w-2xl mx-auto;
+  }
+
+  .form-group {
+    @apply space-y-2;
+  }
+
+  .form-label {
+    @apply block text-base font-semibold text-gray-800;
+  }
+
+  .form-input {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
+  }
+
+  .form-button {
+    @apply w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-md transition-colors;
+  }
+}
